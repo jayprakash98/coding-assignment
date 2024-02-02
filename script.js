@@ -63,7 +63,6 @@ function createProductCard(product) {
 
   return card;
 }
-
 function showProducts(category) {
   document.getElementById("menProducts").style.display = "none";
   document.getElementById("womenProducts").style.display = "none";
@@ -95,5 +94,8 @@ fetch(
       const card = createProductCard(product);
       kidsProductsContainer.appendChild(card);
     });
+
+    // Show the "Men" products by default
+    showProducts("Men");
   })
   .catch((error) => console.error("Error fetching data:", error));
