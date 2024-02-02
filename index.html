@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <p>select your choice</p>
+
+      <div class="tabs">
+        <div
+          id="menTab"
+          class="tab tab-border-radius-left"
+          onclick="showProducts('Men')"
+        >
+          <img src="image/man.png" alt="Men Icon" class="tab-icon" />Men
+        </div>
+        <div id="womenTab" class="tab" onclick="showProducts('Women')">
+          <img src="image/woman.png" alt="women Icon" class="tab-icon" />Women
+        </div>
+        <div
+          id="kidsTab"
+          class="tab tab-border-radius-right"
+          onclick="showProducts('Kids')"
+        >
+          <img src="image/baby-boy.png" alt="Child Icon" class="tab-icon" />Kids
+        </div>
+      </div>
+
+      <div class="tab-content" id="menProducts"></div>
+
+      <div class="tab-content" id="womenProducts" style="display: none"></div>
+
+      <div class="tab-content" id="kidsProducts" style="display: none"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
