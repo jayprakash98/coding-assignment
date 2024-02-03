@@ -1,6 +1,6 @@
 # Coding Assessment L-2: My Project
 
-Welcome to my submission for the Coding Assessment L-2! Below, you'll find details about the project, how to set it up, and how to submit it.
+Welcome to my submission for the Coding Assessment L-2! Below, you'll find details about the project how to run it on your system and you will get the link to see online hosted running website .
 
 ## Project Overview
 
